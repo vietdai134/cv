@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Canh giữa theo chiều dọc */
+}
+
+#name {
+    order: -1; /* Đặt phần tử "Viet Nguyen" ở đầu tiên */
+    margin-right: auto; /* Kéo "Viet Nguyen" về bên trái */
+}
+
+.menu {
+    display: flex;
+}
+
+header h2 {
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0 10px; /* Thêm padding để tạo khoảng cách giữa các phần tử */
+}
+
+body{
+    padding: 10px 100px;
+    
+}
+.container{
+    display: flex;
+    
+}
+#Image{
+    display: block;
+    margin: 100px 200px 0px 20px;
+    position: fixed;
+    top: 80px; 
+    z-index: 100;
+}
+
+#info{
+    display: block;
+    margin: 50px 200px 20px 0px;
+    margin-left: 250px;
+}
+
+#about, #skills, #Contact,#education,#experience, #project{ 
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #ffffff; /* Màu nền của khung */
+    box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    text-align: center;
+    color: gray;
+}
