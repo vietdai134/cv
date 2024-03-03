@@ -59,11 +59,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
-#ab,#Bio{
+#Bio{
     display: block;
     
 }
 #ab{
+    display: block;
     border-right: 1px solid black;
     padding-right: 30px;
 }
