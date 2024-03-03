@@ -63,6 +63,10 @@ body{
     display: block;
     
 }
+#ab{
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
 #info h1{
     text-align: center;
 }
