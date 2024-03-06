@@ -58,10 +58,17 @@ body{
 .contain{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 #Bio{
     display: block;
-    
+    margin-right: 30px;
+}
+#Bio h4{
+    font-weight: lighter;
+}
+#Bio h3{
+    display: inline;
 }
 #ab{
     display: block;
@@ -70,6 +77,9 @@ body{
 }
 #info h1{
     text-align: center;
+}
+#skills h4{
+    font-weight: lighter;
 }
 footer{
     text-align: center;
