@@ -4,6 +4,8 @@ header {
     align-items: center; /* Canh giữa theo chiều dọc */
     border-bottom: 1px solid black;
     padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 #name {
@@ -19,8 +21,34 @@ header h2 {
     margin: 0; /* Loại bỏ margin mặc định */
     padding: 0 10px; /* Thêm padding để tạo khoảng cách giữa các phần tử */
 }
-
+#linkAbout:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: chocolate;
+    
+}
+#linkContact:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: chocolate;
+}
+#linkEdu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: chocolate;
+}
+#linkExp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: chocolate;
+}
+#linkSkills:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: chocolate;
+}
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 100px;
     background-color:whitesmoke;
 }
@@ -30,39 +58,54 @@ body{
 }
 #Image{
     display: block;
-    margin: 100px 200px 0px 0px;
+    margin: 7% 20% 0% 0%;
     position: fixed;
-    top: 80px; 
+    top: 13%; 
     z-index: 100;
     background-color: #ffffff; /* Màu nền của khung */
     box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.2);
-    width: 200px;
-    height: 300px;
+    width: 15%;
+    height: 40%;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#Image div{
+    text-align: left;
+    padding-left: 20%;
+    margin-bottom: 10%;
 }
 
+#Image a{
+    padding-left: 7%;
+    font-size: 18px;
+}
 #info{
     display: block;
-    margin: 50px 200px 20px 0px;
-    margin-left: 250px;
+    margin: 3% 18% 1% 0%;
+    margin-left: 23%;
 }
 
 #about, #skills, #Contact,#education,#experience, #project{ 
-    margin-top: 20px;
-    padding: 10px 30px 10px 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1% 10% 3% 5%;
     background-color: #ffffff; /* Màu nền của khung */
     box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.2);
-    width: 1000px;
+    width: 115%;
+    
 }
+
+
 .contain{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 3%;
+
 }
 #Bio{
     display: block;
-    margin-right: 30px;
+    margin-left: 2%;
 }
 #Bio h4{
     font-weight: lighter;
@@ -78,7 +121,13 @@ body{
 #info h1{
     text-align: center;
 }
+
 #skills h4{
+    font-weight: lighter;
+}
+
+#project h3{
+    
     font-weight: lighter;
 }
 footer{
